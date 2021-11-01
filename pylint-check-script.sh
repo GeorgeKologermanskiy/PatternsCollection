@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 PYTHON_FILES=$(find . -name \*.py -print)
 
 RES=$(pylint $PYTHON_FILES | tail -2)
